@@ -9,7 +9,6 @@ import 'package:flutter/services.dart';
 import 'package:flutter_native_splash/flutter_native_splash.dart';
 import 'package:device_info_plus/device_info_plus.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:upgrader/upgrader.dart';
 import 'package:webview_flutter/webview_flutter.dart';
 import '../utils/network_status_banner.dart';
 import '../utils/notification_service.dart';
@@ -319,7 +318,7 @@ class _WebViewScreenState extends State<WebViewScreen> {
                         controller: _controller,
                       ),
                     ),
-                    // Floating Refresh Indicator
+
                     if (_pullOffset > 5)
                       Positioned(
                         top: _pullOffset / 2,
