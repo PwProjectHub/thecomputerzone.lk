@@ -1,8 +1,6 @@
 name: thecomputerzone
 description: "A new Flutter project."
-
-publish_to: 'none' # Remove this line if you wish to publish to pub.dev
-
+publish_to: 'none'
 
 version: 1.0.0+1
 
@@ -12,23 +10,35 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
   cupertino_icons: ^1.0.8
   webview_flutter: ^4.4.2
   connectivity_plus: ^5.0.2
   flutter_native_splash: ^2.3.5
   device_info_plus: ^9.0.3
   shared_preferences: ^2.2.2
-  upgrader: 10.0.0
+  firebase_core: ^3.8.0
+  firebase_messaging: ^15.1.5
+  flutter_local_notifications: ^17.2.2
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-
-
-  flutter_lints: ^6.0.0
-
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: ^0.13.1
 
 flutter:
   uses-material-design: true
+
+
+flutter_launcher_icons:
+  image_path: "assets/icon/computerzone.png"
+  android: true
+  ios: true
+  adaptive_icon_background: "#ffffff"
+
+flutter_native_splash:
+  color: "#ffffff"
+  image: "assets/icon/computerzone.png"
+  android: true
+  ios: true
 

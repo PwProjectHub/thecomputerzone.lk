@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "177733218922",
+    "project_id": "the-computer-zone",
+    "storage_bucket": "the-computer-zone.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:177733218922:android:96e766a572c908e7345013",
+        "android_client_info": {
+          "package_name": "com.powersoft.thecomputerzone"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARbttBuF7UceB8MQxdBYyB5cvnfcqe-0E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
